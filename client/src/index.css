@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Playfair Display";
+  padding: 20px 60px;
+  /* background-color: #f5f5f5; */
+}

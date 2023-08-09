@@ -1,0 +1,79 @@
+/* Add this CSS to your main CSS file or within a style block/component */
+.cursor-zoom-in {
+  cursor: zoom-in;
+}
+
+.cursor-zoom-in:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(http://localhost:1337/path/to/your/largeImage.jpg); /* Replace with the URL of the large image */
+  background-size: 200% 200%;
+  visibility: hidden;
+}
+
+.transition {
+  transition: all 0.2s ease;
+}
+
+.f_flex {
+  display: flex;
+}
+
+/*---------category----------*/
+
+.category {
+  box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
+  background-color: #fff;
+  width: 286px;
+  height: 500px;
+  /* padding: 15px 0; */
+  border-radius: 5px;
+  /* margin-top: 5px; */
+}
+.category img {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  object-fit: contain;
+}
+.category span {
+  margin: 10px 20px;
+  text-transform: capitalize;
+}
+.category .box {
+  transition: 0.5s;
+  padding: 0 20px;
+}
+.category .box:hover {
+  background-color: rgb(252 211 77);
+  cursor: pointer;
+}
+
+/*---------category----------*/
+
+.filterItem {
+  margin-bottom: 30px;
+
+  .inputItem {
+    margin-bottom: 10px;
+    label {
+      margin-left: 10px;
+    }
+  }
+}
+
+/* newsletter */
+
+/* .newsletter-section {
+  background: #f9f9f9 url("images/news2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+/* newsletter */
