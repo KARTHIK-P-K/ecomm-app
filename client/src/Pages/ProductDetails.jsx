@@ -45,7 +45,7 @@ const ProductDetails = () => {
   }
 
   return (
-    <div className="mb-16 pt-24 lg:pt-[30px] xl:pt-0 ">
+    <div className="mb-16 pt-24 lg:pt-[30px] xl:pt-0 px-[60px] ">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row gap-[30px] mb-[30px]  ">
           <div className="flex flex-row justify-center lg:flex-col gap-4">
@@ -103,7 +103,7 @@ const ProductDetails = () => {
                 Add to Cart
               </button>
             </div>
-            <div className="mt-10 flex gap-4  rounded-lg items-center space-x-4">
+            <div className="mt-10 flex md:gap-4 gap-2  rounded-lg items-center space-x-4">
               <button
                 className={`px-4 py-2 rounded ${
                   selectedSize === "S"

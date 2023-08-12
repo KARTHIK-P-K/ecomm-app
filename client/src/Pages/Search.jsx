@@ -19,7 +19,7 @@ const Search = () => {
   const firstPostIndex = lastPostIndex - postsPerPage;
   const currentData = data.slice(firstPostIndex, lastPostIndex);
   return (
-    <div className="mb-[30px]  pt-20 lg:pt-4 xl:pt-0 ">
+    <div className="mb-[30px]  pt-20 lg:pt-4 xl:pt-0 px-[60px] ">
       <div className="container mx-auto">
         <div className="flex gap-x-[30px] ">
           <CategoryNav />

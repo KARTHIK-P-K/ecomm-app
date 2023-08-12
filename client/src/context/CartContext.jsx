@@ -24,9 +24,12 @@ const CartProvider = ({ children }) => {
 
   const addToCart = (item, id) => {
     const itemId = parseInt(id);
+    console.log(cart, itemId, item);
     const newItem = { ...item[0], amount: 1 };
+    console.log(newItem);
     // setCart([...cart, newItem]);
     const cartItem = cart.find((item) => item.id === itemId);
+    console.log(cartItem);
     if (cartItem) {
       const newCart = cart.map((item) => {
         if (item.id === itemId) {
@@ -43,6 +46,7 @@ const CartProvider = ({ children }) => {
     } else {
       setCart([...cart, newItem]);
     }
+    console.log(cart);
     setIsOpen(true);
   };
 

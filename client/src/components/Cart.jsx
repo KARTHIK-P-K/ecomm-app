@@ -36,11 +36,11 @@ const Cart = () => {
             <div className="flex flex-col md:flex-row  justify-between gap-x-4 mt-4 mb-32 gap-y-[20px]">
               <button
                 onClick={clearCart}
-                className="bg-amber-300 rounded-md p-2 text-xl text-black  px-2 gap-x-2"
+                className="bg-amber-300 rounded-md p-2 md:text-2xl md:px-8 text-xl text-black  px-2 gap-x-2"
               >
                 Clear cart
               </button>
-              <button className="bg-amber-300 rounded-md p-2 text-xl text-black  px-2 gap-x-2">
+              <button className="bg-amber-300 rounded-md p-2 md:text-2xl md:px-8 text-xl text-black  px-2 gap-x-2">
                 Checkout
               </button>
             </div>

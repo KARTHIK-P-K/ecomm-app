@@ -14,7 +14,7 @@ const Navbar = () => {
   const [catNavMobile, setCatNavMobile] = useState(false);
 
   return (
-    <header className=" py-6  w-full top-0 z-40 relative xl:mb-[30px] ">
+    <header className=" py-6  w-full top-0 z-40 relative xl:mb-[30px] px-[60px] ">
       <div className="container mx-auto">
         <div className="flex flex-row gap-4 justify-between lg:justify-around lg:items-center mb-4 xl:mb-0">
           <div

@@ -30,7 +30,7 @@ const Products = () => {
   const currentData = data.slice(firstPostIndex, lastPostIndex);
   console.log(currentPage);
   return (
-    <div className="mb-16 pt-40 lg:pt-0">
+    <div className="mb-16 pt-40 lg:pt-0 px-[60px]">
       <div className="container mx-auto">
         <div className="flex md:items-start md:flex-row items-center flex-col gap-x-[30px]">
           {/* <CategoryNav /> */}
